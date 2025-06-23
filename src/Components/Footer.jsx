@@ -5,6 +5,7 @@ import { FaXTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { assets } from '../assets/assets';
+import { CiLocationOn } from "react-icons/ci";
 
 
 const Footer = () => {
@@ -43,8 +44,12 @@ const Footer = () => {
                 </div>
                 <div className="section1-quicklinks-1">
                   <h1>Product</h1>
-                  <p>Terms & conditions</p>
-                  <p>Privacy policy</p>
+                  <Link to="/">
+                    <p>Terms & conditions</p>
+                  </Link>
+                  <Link to="/">
+                    <p>Privacy policy</p>
+                  </Link>
                 </div>
               </div>
               <div>
@@ -56,7 +61,6 @@ const Footer = () => {
               </div>
             </div>
             <div className="top-right-section2">
-              <h1>lorem ipsum dolor sit</h1>
               <img
                 src={assets.footer}
                 alt=""
@@ -67,9 +71,12 @@ const Footer = () => {
             <div className="top-left-content">
               <h1>contact us</h1>
               <p>
+                <CiLocationOn size={20}/>
+                <a href="" style={{ marginLeft: "8px", width: "90%" }}>
                 QuantumQuest Wealth, C/o Juristax Holdings Ltd, Level.3, Ebene
                 House, Hotel Avenue, Cybercity, Ebene – 72201, Republic of
                 Mauritius.
+                </a>
               </p>
               <p>
                 <PiPhoneThin size={20} />
@@ -118,6 +125,7 @@ const Footer = () => {
         </div>
         <div className="footer-bottom">
           <p>copyrights© {currentyear}</p>
+          <a href="https://virtuai.billionairefrequencycode.com/">BFC VirtuAI</a>
         </div>
       </div>
     </div>

@@ -1352,7 +1352,8 @@ a {
   gap:1rem;
   display: flex;
   justify-content: space-between;
-  width: 55%;
+  align-items: center;
+  width: 60%;
   overflow: hidden;
 }
 
@@ -1456,6 +1457,7 @@ a {
 .top-left-content a {
   text-decoration: none;
   color: var(--secondary-color);
+  
 }
 
 .top-left-content-media {  
@@ -1471,12 +1473,19 @@ a {
 }
 
 .footer-bottom {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 2rem;
 }
-
+.footer-bottom a{
+  transition: all 0.3s ease;
+}
+.footer-bottom a:hover{
+  color: var(--primary-color);
+}
 .footer-bottom p {
-  font-size: 25px;
+  font-size: 21px;
   font-weight: 500;
   color: white;
   text-transform: capitalize;
