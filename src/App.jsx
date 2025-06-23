@@ -6,10 +6,12 @@ import Teams from './Pages/Teams.jsx';
 import Home from './Pages/Home.jsx'
 import Services from './Pages/Services.jsx';
 import Navbar from './Components/Navbar.jsx';
+import ScrollToTop from './Components/ScrollToTop.jsx';
 
 function App() {
   return (
     <>
+    <ScrollToTop />
     <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

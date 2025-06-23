@@ -28,7 +28,7 @@ const WhatWeDo = () => {
         <div className="parent">
           <div className="div1">
             <h1>What We Do</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto velit expedita odio delectus ad quidem, ipsa amet nihil asperiores ut, obcaecati maiores aliquam eveniet. Quasi officia doloremque sit ipsam in?</p>
+            <p>LThe company has received the Global Business Licence and Investment Adviser (Unrestricted) Licence from the Financial Services Commission (FSC), Mauritius for commencing the business of investment advisory and wealth management as on 9th May 2025. </p>
           </div>
 
           {ServicesData.map((item, index) => (

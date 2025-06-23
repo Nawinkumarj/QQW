@@ -25,23 +25,26 @@ const Footer = () => {
               </div>
               <div className="right-section1-quicklinks">
                 <div className="section1-quicklinks-1">
-                  <h1>company</h1>
-                  <p>home</p>
+                  <h1>Company</h1>
+                  <Link to='/'>
+                    <p>Home</p>
+                  </Link>
                   <Link to="/about-us">
                     <p>about us</p>
                   </Link>
-                  <p>service</p>
-                  <Link to="/team">
-                    <p>teams</p>
+                  <Link to="/services"> 
+                  <p>Service</p></Link>
+                  <Link to="/teams ">
+                    <p>Teams</p>
                   </Link>
                   <Link to="/contact-us">
-                    <p>contact us</p>
+                    <p>Contact us</p>
                   </Link>
                 </div>
                 <div className="section1-quicklinks-1">
-                  <h1>product</h1>
-                  <p>terms & conditions</p>
-                  <p>privacy policy</p>
+                  <h1>Product</h1>
+                  <p>Terms & conditions</p>
+                  <p>Privacy policy</p>
                 </div>
               </div>
               <div>
@@ -70,7 +73,7 @@ const Footer = () => {
               </p>
               <p>
                 <PiPhoneThin size={20} />
-                <a href="tel:+2304655526" style={{ marginLeft: "8px" }}>
+                <a href="tel:+230 – 465 5526" style={{ marginLeft: "8px" }}>
                   +230 – 465 5526
                 </a>
               </p>

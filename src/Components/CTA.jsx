@@ -20,9 +20,9 @@ const CTA = () => {
         </div>
         <div className="rightSide">
           <div className="ctaContactContainer">
-            <a href="#">
+            <a href="tel:+230 – 465 5526">
               <PiPhoneList />
-              <p>+230 - 465 5526</p>
+              <p>+230 – 465 5526</p>
             </a>
             <a href="#">
               <GoMail />

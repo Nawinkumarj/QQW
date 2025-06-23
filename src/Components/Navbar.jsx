@@ -52,7 +52,7 @@ const Navbar = () => {
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/team'>
+                <NavLink to='/teams'>
                     <p>TEAMS</p>
                     <div className='navActive'>
                         <span></span>
@@ -63,6 +63,7 @@ const Navbar = () => {
         </div>
         <div className='right'>
             <NavLink to='/contact-us'>
+                <IoIosContact />
                 <p>CONTACT</p>
             </NavLink>
             <div className='humburger' onClick={openNav}>
@@ -83,7 +84,7 @@ const Navbar = () => {
             </div>
             <div className='smNavList'>
                 <div>
-                    <NavLink to='/'>
+                    <NavLink to='/' onClick={closeNav}>
                         <p>HOME</p>
                         <div className='navActive'>
                             <span></span>
@@ -92,7 +93,7 @@ const Navbar = () => {
                     </NavLink>
                 </div>
                 <div>
-                    <NavLink to='/about'>
+                    <NavLink to='/about-us' onClick={closeNav}>
                         <p>ABOUT</p>
                         <div className='navActive'>
                             <span></span>
@@ -101,7 +102,7 @@ const Navbar = () => {
                     </NavLink>
                 </div>
                 <div>
-                    <NavLink to='/services'>
+                    <NavLink to='/services' onClick={closeNav}>
                         <p>SERVICE</p>
                         <div className='navActive'>
                             <span></span>
@@ -110,8 +111,17 @@ const Navbar = () => {
                     </NavLink>
                 </div>
                 <div>
-                    <NavLink to='/teams'>
+                    <NavLink to='/teams' onClick={closeNav}>
                         <p>TEAMS</p>
+                        <div className='navActive'>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </NavLink>
+                </div>
+                <div>
+                    <NavLink to='/contact-us' onClick={closeNav}>
+                        <p>CONTACT US</p>
                         <div className='navActive'>
                             <span></span>
                             <span></span>

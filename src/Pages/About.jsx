@@ -2,9 +2,13 @@ import React from "react";
 import Testimonial from "../Components/Testimonial";
 import CTA from "../Components/CTA";
 import { assets } from "../assets/assets";
+import Banner from "../Components/Banner";
 
 const About = () => {
   return (
+    <>
+    <Banner img={assets.heroBg} />
+
     <div className="about-container">
       <div className="about-main">
         <div className="about-section1-main">
@@ -33,22 +37,7 @@ const About = () => {
                   src="https://download.havecamerawilltravel.com/sample-images/webp/webp-example.webp"
                   alt=""
                 />
-                <img
-                  className="content-l-img-overlay"
-                  src={assets.abt_overlay}
-                />
-                <img
-                  className="content-l-img-texture1"
-                  src={assets.abt_texture1}
-                />
-                <img
-                  className="content-l-img-texture2"
-                  src={assets.abt_texture2}
-                />
-                <img
-                  className="content-l-img-texture3"
-                  src={assets.abt_texture3}
-                />
+                <img className="aboutOverlay" src={assets.cta_overlay} alt="" />
               </div>
             </div>
           </div>
@@ -68,33 +57,30 @@ const About = () => {
             </div>
             <div className="about-section2-content-l">
               <img
-                src="https://www.dummyimg.in/placeholder?width=650&height=500&format=WEBP"
+                src="https://cdn.pixabay.com/photo/2025/06/11/07/18/wildlife-9653797_960_720.jpg"
                 alt=""
               />
             </div>
           </div>
         </div>
-        <div className="about-section3-main">
-          <div className="about-section3">
-            <div className="about-section3-content">
-              <p>
-                The team leverages extensive market knowledge and industry
-                expertise to guide clients in making informed decisions, aiming
-                to enhance their financial well-being.
-              </p>
-              <p>
-                The commitment to transparency, ethical practices, and
-                continuous monitoring of market trends distinguishes the Company
-                as a trusted partner in the realm of financial and investment
-                advisory services.
-              </p>
-            </div>
+        <div className="aboutOrbitContainer">
+          <div className="orbit1">
+            <div className="orbitCircle orbitCircle1"></div>
+            <div className="orbitCircle orbitCircle2"></div>
+            <div className="orbitCircle orbitCircle3"></div>
+            <div className="orbitCircle orbitCircle4"></div>
+          </div>
+          <div className="orbit2"></div>
+          <div className="orbitContent">
+            <p>The team leverages extensive market knowledge and industry expertise to guide clients in making  informed decisions, aiming to enhance their financial well-being.</p>
+            <p>The commitment to transparency, ethical practices, and continuous monitoring of market trends  distinguishes the Company as a trusted partner in the realm of financial and investment advisory  services.</p>
           </div>
         </div>
         <Testimonial />
         <CTA />
       </div>
     </div>
+    </>
   );
 };
 

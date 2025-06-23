@@ -563,3 +563,221 @@
 }
 
 /* TEAMS END */
+
+/* ABOUT START */
+
+@media (max-width: 1280px) {
+    .about-section1,
+    .about-section2 
+    {
+        width: 90%;
+    }
+    .about-section1-content-r p {
+        width: 100%;
+    }
+    .about-section2-content-r p {
+        width: 90%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content-l-main-img {
+        width: 320px;
+        height: 320px;
+    }
+    .about-section1-content-r p {
+        font-size: 18px;
+    }
+    .about-section1-head h1 {
+        font-size: 60px;
+    }
+    .about-section2 {
+        width: 95%;
+        gap: 20px;
+    }
+    .about-section2-content-r,
+    .about-section2-content-l 
+    {
+        width: 50%;
+    }
+    .orbit1,
+    .orbit2
+    {
+        width: 90%;
+        height: 90%;
+    }
+    .orbit2 {
+        transform: translate(-50%, -50%) rotate(30deg);
+    }
+    .orbitContent {
+        width: 80%;
+    }
+    .orbitContent p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-l-main-img {
+        width: 90%;
+        height: 320px;
+    }
+    .about-section1-content {
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+    .aboutOverlay {
+        width: 90%;
+        height: 320px;
+    }
+    .about-section1-head h1 {
+        font-size: 50px;
+    }
+    .about-section2 {
+        flex-direction: column-reverse;
+    }
+    .about-section2-content-r,
+    .about-section2-content-l 
+    {
+        width: 100%;
+    }
+    .about-section2-content-r {
+        height: 400px;
+    }
+    .orbitCircle {
+        width: 20px;
+        height: 20px;
+        border-radius: 999px;
+        background-color: white;
+
+        position: absolute;
+    }
+    .orbitContent p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 640px) {
+    .about-section2-content-r p {
+        font-size: 16px;
+    }
+    .orbit2 {
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
+    .orbitContent p {
+        font-size: 16px;
+    }
+}
+
+/* ABOUT END */
+
+/* CONTACT US START */
+
+@media (max-width: 890px) {
+    .contact-vectors .location-icon {
+        width: 100px;
+        top: -115px;
+        left: 20%;
+    }
+    .contact-vectors .message-icon {
+        right: 10px;
+        top: 120px;
+        width: 100px;
+    }
+    .contact-vectors .send-icon {
+        bottom: -70px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .info-item {
+        justify-content: start;
+        text-align: center;
+    }
+    .info-icon {
+        margin-top: 0;
+        width: 40px;
+        height: 40px;
+    }
+    .social-icons a {
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    .contact-title {
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+    .address {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 640px) {
+    .contact-title {
+        font-size: 50px;
+    }
+}
+
+/* CONTACT US END */
+
+/* ENQUIRY FORM START */
+
+@media (max-width: 640px) {
+    .enquiryForm {
+        width: 90%;
+    }
+    .eqform input, .eqform select, .eqform textarea  {
+        font-size: 16px;
+    }
+    .eqform button {
+        font-size: 14px;
+    }
+}
+
+/* ENQUIRY FORM END */
+
+/* WHAT WE DO POPUP START */
+
+@media (max-width: 1024px) {
+    .popupOverlay .popupContent  {
+        width: 90%;
+    }
+}
+
+@media (max-width: 640px) {
+    .popupTitle h1 {
+        font-size: 20px;
+    }
+    .popupContent .points h2 {
+        font-size: 16px;
+    }
+    .pointsContent.open p {
+        font-size: 14px;
+    } 
+    .popupContent .points.open {
+        padding: 5px;
+    }
+    .popupContent .points div {
+        width: 35px;
+        height: 35px;
+    }
+    .popupclose {
+        width: 25px;
+        height: 25px;
+    }
+    .popupTitle .round {
+        width: 20px;
+        height: 20px;
+    }
+    .popupTitle {
+        gap: 5px;
+    }
+}
+
+/* WHAT WE DO POPUP END */
