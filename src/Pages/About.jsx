@@ -2,13 +2,10 @@ import React from "react";
 import Testimonial from "../Components/Testimonial";
 import CTA from "../Components/CTA";
 import { assets } from "../assets/assets";
-import Banner from "../Components/Banner";
 
 const About = () => {
   return (
     <>
-    <Banner img={assets.heroBg} />
-
     <div className="about-container">
       <div className="about-main">
         <div className="about-section1-main">

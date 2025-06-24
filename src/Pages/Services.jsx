@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Banner from '../Components/Banner'
 import { assets } from '../assets/assets'
 import { ServicesData } from '../mockData/Services'
 import { FaArrowRight } from "react-icons/fa";
@@ -27,7 +26,6 @@ const Services = () => {
 
   return (
     <div>
-      <Banner img={assets.heroBg} />
 
       <div className='ServiesContainer'>
         <h1>What We Do</h1>

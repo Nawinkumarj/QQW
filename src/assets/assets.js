@@ -37,6 +37,9 @@ import quarterly_reports from './quarterly-reports.png'
 import monthly_reports from './monthly-reports.png'
 import on_demand_reports from './on-demand-reports.png'
 
+import team1 from './uu.JPG'
+import team2 from './uma.png'
+
 export const assets = {
   ctabg,
   cta_overlay,
@@ -74,5 +77,7 @@ export const assets = {
   annual_reports,
   quarterly_reports,
   monthly_reports,
-  on_demand_reports 
+  on_demand_reports,
+  team1,
+  team2,
 };

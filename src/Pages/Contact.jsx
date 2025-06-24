@@ -7,7 +7,6 @@ import {
   PiLinkedinLogoLight,
   PiEnvelopeSimpleOpenLight,
 } from "react-icons/pi";
-import Banner from "../Components/Banner";
 import { assets } from "../assets/assets";
 
 const Contact = () => {
@@ -76,8 +75,6 @@ const Contact = () => {
 
   return (
     <>
-      <Banner img={assets.heroBg} />
-
       <section className="contact-section">
         <h2 className="contact-title">Contact Us</h2>
         <div className="contact-container">

@@ -1,5 +1,4 @@
 import React from "react";
-import Banner from "../Components/Banner";
 import { assets } from "../assets/assets";
 
 const teamMembers = [
@@ -11,13 +10,13 @@ const teamMembers = [
   },
   {
     name: "Mr. Udayakumar Pechimuthu",
-    image: "https://placehold.co/600x400",
+    image: assets.team1,
     description:
       "Mr. Udayakumar has Board of Director and Management experience and expertise in many  corporates. He is currently acting as Director & Advisor in Corporates and advisor for Corporate  Bonds facilitation in Euro Exim Bank ltd. He has rich knowledge and work experience in Financial  Markets, Corporate Bonds, Securities and Board Management of companies.      His educational qualification is MBA from well renowned institution – IIM Bangalore and Bachelor  of Engineering from Anna University, Chennai.",
   },
   {
     name: "Mrs. Sivakumari Jagadeesan",
-    image: "https://placehold.co/600x400",
+    image: assets.team2,
     description:
       "Mrs. Sivakumari has in depth and extensive work experiences in managing Banking project  migrations, management consultancy, commercial banking, client onboarding, project  management and operations & strategy. Her educational qualification is BA & MBA from  University of Madras, Chennai.",
   },
@@ -26,7 +25,6 @@ const teamMembers = [
 const Teams = () => {
   return (
     <>
-    <Banner img={assets.heroBg} />
     <section className="team-section">
       <h1 className="team-title">Our Teams</h1>
       <h3 className="team-subtitle">Directors of the Company</h3>

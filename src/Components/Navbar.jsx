@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
-import { IoIosContact } from "react-icons/io";
 import { assets } from '../assets/assets';
 import { IoClose } from "react-icons/io5";
 
@@ -63,8 +62,7 @@ const Navbar = () => {
         </div>
         <div className='right'>
             <NavLink to='/contact-us'>
-                <IoIosContact />
-                <p>CONTACT</p>
+                <button>Contact</button>
             </NavLink>
             <div className='humburger' onClick={openNav}>
                 <span></span>
